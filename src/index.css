@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-input_wrapper {
+  width: 100%;
+  margin: 5px;
+}
+
+.text-input_label-wrapper {
+  display: flex;
+}
+
+.text-input_label {
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.text-input_label-asterisk {
+  color: red;
+}
+
+.text-input_input {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  border: 1px solid lightblue;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: 100;
+}
+
+.text-input_input:hover, .text-input_input:active {
+  border-color: lightblue;
+}
+
+.text-input_input--xs {
+  height: 20px;
+}
+
+.text-input_input--sm {
+  height: 25px;
+}
+
+.text-input_input--md {
+  height: 30px;;
+}
+
+.text-input_input--lg {
+  height: 35px;
+}
+
+.text-input_input--xl {
+  height: 40px;
+}
+
+.text-input-wrapper--xs {
+  font-size: 10px;
+}
+
+.text-input-wrapper--sm {
+  font-size: 12px;
+}
+
+.text-input-wrapper--md {
+  font-size: 14px;
+}
+
+.text-input-wrapper--lg {
+  font-size: 16px;
+}
+
+.text-input-wrapper--xl {
+  font-size: 18px;
+}
+
+.text-input_input--filled {
+  border: none !important;
+  background-color: lightblue;
+}
+
+.text-input_input--unstyled {
+  border: none !important;
+}
+
+.text-input_input--with-icon {
+  padding-left: 40px;
+}
+
+.text-input_input--error, .text-input_input--error::placeholder {
+  color: 
+  red;
+}
+
+.text-input_container {
+  position: relative;
+}
+
+.text-input_icon {
+  position: absolute;
+  left: 5px;
+  z-index: 9;
+  height: 100%;
+}
+
+.text-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.text-input_input--radio {
+  height: 15px;
+}
+
+.input {
+  margin-bottom: 10px;
+  font-size: inherit;
+}
+
+.sign-in_wrapper, .sign-up_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in_form, .sign-up_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 300px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.sign-in_inputs, .sign-up_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sign-up_radio-inputs {
+  display: flex;
+  width: 100%;
+}
+
+.categories-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories-list_item {
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+.categories-list_item:hover {
+  background-color: lightgray;
+}
+
+.element-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
